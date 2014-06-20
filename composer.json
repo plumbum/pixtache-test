@@ -12,8 +12,9 @@
         "phpixie/orm": "2.*@dev",
         "phpixie/image":"2.*@dev",
         "phpixie/auth":"2.*@dev",
-        "mustache/mustache": "2.*",
         "components/jquery": "dev-master",
+        "twbs/bootstrap": "dev-grunt-csscomb",
+        "mustache/mustache": "2.*",
         "plumbum/pixtache": "dev-master"
     },
     "extra": {

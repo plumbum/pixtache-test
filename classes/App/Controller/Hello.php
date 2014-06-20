@@ -13,6 +13,7 @@ class Hello extends \App\Page {
             'threed',
             'fourth',
         );
+		$this->view->date = strftime('%F %T');
 	}
 
 }
