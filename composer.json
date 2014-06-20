@@ -1,0 +1,31 @@
+{
+    "name": "plumbum/chapai_test",
+    "type": "project",
+    "description" : "Try to integrate mustache to project",
+    "license" : "BSD",
+    "autoload": {
+        "psr-0": {"": "classes/"}
+    },
+    "require": {
+        "phpixie/core": "2.*@dev",
+        "phpixie/db": "2.*@dev",
+        "phpixie/orm": "2.*@dev",
+        "phpixie/image":"2.*@dev",
+        "phpixie/auth":"2.*@dev",
+        "mustache/mustache": "2.*",
+        "components/jquery": "dev-master",
+        "plumbum/pixtache": "dev-master"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.*-dev"
+        }
+    },
+    "repositories":[
+        {
+            "type":"git",
+            "url":"http://github.com/plumbum/pixtache"
+        }
+    ]
+}
+
