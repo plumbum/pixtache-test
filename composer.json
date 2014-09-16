@@ -1,5 +1,5 @@
 {
-    "name": "plumbum/chapai_test",
+    "name": "plumbum/pixtache_test",
     "type": "project",
     "description" : "Try to integrate mustache to project",
     "license" : "BSD",
@@ -13,7 +13,6 @@
         "phpixie/image":"2.*@dev",
         "phpixie/auth":"2.*@dev",
         "components/jquery": "dev-master",
-        "twbs/bootstrap": "dev-grunt-csscomb",
         "mustache/mustache": "2.*",
         "plumbum/pixtache": "dev-master"
     },
